@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Enigma_Machine.dir/objects.a
+E:\workspace\MinGW\bin\ar.exe cr CMakeFiles\Enigma_Machine.dir/objects.a @CMakeFiles\Enigma_Machine.dir\objects1.rsp
+E:\workspace\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Enigma_Machine.dir/objects.a -Wl,--no-whole-archive  -o Enigma_Machine.exe -Wl,--out-implib,libEnigma_Machine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Enigma_Machine.dir\linklibs.rsp
