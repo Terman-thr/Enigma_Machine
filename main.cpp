@@ -1,10 +1,10 @@
 #include <iostream>
 #include <cstdlib>
+#include "Enigma.h"
 #include "Rotor.h"
 int main(){
     using namespace std;
-    Rotor a('1','2');
-    for (int i=1;i<=62;i++)
-        cout<<a.getResultIn(i)<<endl;
+    string s("GERMANY");
+    Enigma(s);
 
 }
